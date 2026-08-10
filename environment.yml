@@ -1,0 +1,11 @@
+name: chess-ai
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - cmake>=3.22
+  - ninja
+  - tk
+  - pillow>=10
+  - mypy>=1.10
