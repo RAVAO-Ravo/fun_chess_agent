@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "engine_search_version": "iterative-negamax-qsearch-lmr-v2",
+  "log_file": "generations.csv",
+  "seed": 42,
+  "max_halfmoves": 80,
+  "quiescence_max_ply": 10,
+  "population_size": 32,
+  "generations": 100,
+  "threads": 4,
+  "training_positions": 2905,
+  "fitness_mode": "matches",
+  "corpus_path": "config/training/../../data/positions/training_corpus.tsv",
+  "colors_reversed": true,
+  "search_space_path": "config/training/search_space.json",
+  "system": "linux",
+  "architecture": "64-bit",
+  "compiler": "GNU 11.4.0",
+  "build_type": "Release"
+}

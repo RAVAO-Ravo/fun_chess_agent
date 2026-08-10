@@ -1,0 +1,22 @@
+{
+  "searchDepth": 4,
+  "searchMode": "instinct",
+  "pieceValues": {
+    "pawn": 112,
+    "knight": 285,
+    "bishop": 290,
+    "rook": 458,
+    "queen": 849,
+    "king": 25000
+  },
+  "evaluationWeights": {
+    "doubledPawnPenalty": 17,
+    "isolatedPawnPenalty": 2,
+    "passedPawnBonus": 11,
+    "protectedPawnBonus": 21,
+    "mobilityBonus": 6,
+    "bishopPairBonus": 53,
+    "kingShieldBonus": 38,
+    "undevelopedMinorPenalty": 11
+  }
+}
