@@ -1,0 +1,67 @@
+{
+  "searchMode": "instinct_lmr",
+  "lmrMinPly": 3,
+  "lmrFullDepthMoves": 4,
+  "parameters": {
+    "searchDepth": {
+      "type": "int",
+      "bounds": [4, 4]
+    },
+    "pawnValue": {
+      "type": "int",
+      "bounds": [80, 150]
+    },
+    "knightValue": {
+      "type": "int",
+      "bounds": [150, 350]
+    },
+    "bishopValue": {
+      "type": "int",
+      "bounds": [150, 350]
+    },
+    "rookValue": {
+      "type": "int",
+      "bounds": [350, 600]
+    },
+    "queenValue": {
+      "type": "int",
+      "bounds": [600, 1000]
+    },
+    "kingValue": {
+      "type": "int",
+      "bounds": [25000, 25000]
+    },
+    "doubledPawnPenalty": {
+      "type": "int",
+      "bounds": [0, 80]
+    },
+    "isolatedPawnPenalty": {
+      "type": "int",
+      "bounds": [0, 80]
+    },
+    "passedPawnBonus": {
+      "type": "int",
+      "bounds": [0, 80]
+    },
+    "protectedPawnBonus": {
+      "type": "int",
+      "bounds": [0, 80]
+    },
+    "mobilityBonus": {
+      "type": "int",
+      "bounds": [0, 30]
+    },
+    "bishopPairBonus": {
+      "type": "int",
+      "bounds": [0, 80]
+    },
+    "kingShieldBonus": {
+      "type": "int",
+      "bounds": [0, 80]
+    },
+    "undevelopedMinorPenalty": {
+      "type": "int",
+      "bounds": [0, 80]
+    }
+  }
+}

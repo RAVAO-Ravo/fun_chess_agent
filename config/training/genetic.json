@@ -1,0 +1,50 @@
+{
+  "random_state": 42,
+  "generations": 100,
+  "max_halfmoves": 80,
+  "quiescence_max_ply": 10,
+  "threads": 4,
+  "run_root": "runs",
+  "fitness_mode": "matches",
+  "corpus_path": "../../data/positions/training_corpus.tsv",
+  "search_space_path": "search_space.json",
+  "training_positions_path": "../../data/openings/generated/training_positions.fen",
+  "generation_schedule": [
+    {
+      "from": 1,
+      "to": 40,
+      "population_size": 32,
+      "mutation_individual_fraction": 0.70,
+      "mutation_rate_scalar": 0.40,
+      "mutation_rate_depth": 0.00,
+      "mutation_scale_fraction": 0.10
+    },
+    {
+      "from": 41,
+      "to": 70,
+      "population_size": 16,
+      "mutation_individual_fraction": 0.70,
+      "mutation_rate_scalar": 0.40,
+      "mutation_rate_depth": 0.00,
+      "mutation_scale_fraction": 0.10
+    },
+    {
+      "from": 71,
+      "to": 90,
+      "population_size": 8,
+      "mutation_individual_fraction": 0.70,
+      "mutation_rate_scalar": 0.40,
+      "mutation_rate_depth": 0.00,
+      "mutation_scale_fraction": 0.10
+    },
+    {
+      "from": 91,
+      "to": 100,
+      "population_size": 4,
+      "mutation_individual_fraction": 0.70,
+      "mutation_rate_scalar": 0.40,
+      "mutation_rate_depth": 0.00,
+      "mutation_scale_fraction": 0.10
+    }
+  ]
+}
