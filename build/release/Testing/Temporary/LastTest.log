@@ -1,0 +1,30 @@
+Start testing: Jul 29 23:46 CEST
+----------------------------------------------------------
+1/1 Testing: chess_tests
+1/1 Test: chess_tests
+Command: "/mnt/c/Users/hardm/Documents/Projects/00_coding/05_chess_game_(no_github)/tmp/build/release/chess_tests"
+Directory: /mnt/c/Users/hardm/Documents/Projects/00_coding/05_chess_game_(no_github)/tmp/build/release
+"chess_tests" start time: Jul 29 23:46 CEST
+Output:
+----------------------------------------------------------
+Training started.
+Generations: 1 | initial population: 2 | max_halfmoves: 2 | quiescence_max_ply: 3 | training positions: 0 | threads: 1 | seed: 7
+Output: /tmp/probcomp_eval_smoke/best.json
+[gen 1/1] matchs 0/1 (0%) elapsed=0.0s eta=0.0s[gen 1/1] matchs 1/1 (100%) elapsed=0.0s eta=0.0s
+[gen 1/1 | 100%] pop=2 matches=1 survivors=1 time=0.03s best_fitness=2.08 avg_fitness=2.04 avg_depth=1.50 mutation_individual=1.00
+  best_id=6 W/D/L=0/2/0 depth=1 values=[P91 N352 B301 R496 Q1045] eval=[Dbl23 Iso49 Pass28 Prot16 Mob2 Pair40 Shield2 Dev2]
+  avg_values=[P92.00 N302.00 B313.00 R502.50 Q1004.50] saved=/tmp/probcomp_eval_smoke/best.json
+Training completed.
+Best individual: 6
+Final fitness: 2.00
+Parameters saved to /tmp/probcomp_eval_smoke/best.json
+All tests passed (493 assertions)
+<end of output>
+Test time =   4.10 sec
+----------------------------------------------------------
+Test Passed.
+"chess_tests" end time: Jul 29 23:46 CEST
+"chess_tests" time elapsed: 00:00:04
+----------------------------------------------------------
+
+End testing: Jul 29 23:46 CEST
