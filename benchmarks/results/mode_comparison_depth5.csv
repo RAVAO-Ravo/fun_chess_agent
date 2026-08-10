@@ -1,0 +1,22 @@
+# schema_version=2
+# system=linux
+# architecture=x86_64
+# compiler=GNU 11.4.0
+# build_type=Release
+# optimization=compiler-default+CMake-Release
+id,category,mode,requested_depth,completed_depth,best_move,score,time_us,nodes,qnodes,nps,tt_probes,tt_hits,tt_entries,cutoffs,stopped
+initial,opening,classic,5,5,g2g3,33,85681,2372,17340,230062,2372,698,1675,3262,0
+kiwipete,middlegame,classic,5,5,e2a6,-273,1601932,7945,249357,160619,7945,3016,4903,51146,0
+poisoned_pawn,tactic,classic,5,5,d1g4,361,74531,2316,22389,331472,2316,996,1319,5134,0
+only_defense,defense,classic,5,5,e1e2,0,301,26,60,285714,26,14,13,16,0
+rook_endgame,endgame,classic,5,5,b4f4,3,26676,1075,6899,298920,1075,402,674,1694,0
+initial,opening,instinct,5,5,g2g3,33,74913,2140,16819,253080,2140,693,1447,2629,0
+kiwipete,middlegame,instinct,5,5,e2a6,-273,1220176,7953,187056,159820,7953,3050,4877,37039,0
+poisoned_pawn,tactic,instinct,5,5,d1g4,361,57283,2090,16032,316359,2090,879,1210,3918,0
+only_defense,defense,instinct,5,5,e1e2,0,249,26,38,257028,26,14,13,16,0
+rook_endgame,endgame,instinct,5,5,b4f4,3,28644,1153,7717,309663,1153,383,771,1844,0
+initial,opening,instinct_only,5,5,e2e3,47,73070,2107,13672,215943,2107,687,1421,3456,0
+kiwipete,middlegame,instinct_only,5,5,e2a6,-27,780305,6613,117617,159206,6613,2791,3801,23947,0
+poisoned_pawn,tactic,instinct_only,5,5,d1d4,274,25655,1358,6460,304735,1358,770,589,1596,0
+only_defense,defense,instinct_only,5,5,e1e2,0,301,26,38,212624,26,14,13,16,0
+rook_endgame,endgame,instinct_only,5,5,b4f4,91,12356,649,2911,288119,649,327,323,766,0

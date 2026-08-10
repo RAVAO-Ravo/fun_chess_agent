@@ -1,0 +1,22 @@
+# schema_version=1
+# system=linux
+# architecture=x86_64
+# compiler=GNU 11.4.0
+# build_type=RelWithDebInfo
+# optimization=compiler-default+CMake-RelWithDebInfo
+id,category,mode,requested_depth,completed_depth,best_move,score,time_us,nodes,qnodes,nps,tt_probes,tt_hits,cutoffs,stopped
+initial,opening,classic,3,3,e2e3,26,4948,764,724,300727,83,20,70,0
+kiwipete,middlegame,classic,3,3,e2a6,67,149904,2582,17517,134079,181,48,3570,0
+poisoned_pawn,tactic,classic,3,3,d1d4,284,5031,879,1337,440469,80,18,297,0
+only_defense,defense,classic,3,3,e1e2,0,105,19,14,314285,6,2,4,0
+rook_endgame,endgame,classic,3,3,b4f4,83,3003,378,672,349650,47,14,131,0
+initial,opening,instinct,3,3,e2e3,26,10534,757,705,138788,81,20,63,0
+kiwipete,middlegame,instinct,3,3,e2a6,67,465811,2644,21640,52132,182,48,4618,0
+poisoned_pawn,tactic,instinct,3,3,d1d4,284,12073,630,1008,135674,70,18,229,0
+only_defense,defense,instinct,3,3,e1e2,0,228,19,14,144736,6,2,4,0
+rook_endgame,endgame,instinct,3,3,b4f4,83,6025,346,602,157344,45,14,116,0
+initial,opening,instinct_only,3,3,e2e3,26,9599,757,705,152307,81,20,63,0
+kiwipete,middlegame,instinct_only,3,3,e2a6,67,452447,2644,21640,53672,182,48,4618,0
+poisoned_pawn,tactic,instinct_only,3,3,d1d4,284,8930,630,1008,183426,70,18,229,0
+only_defense,defense,instinct_only,3,3,e1e2,0,194,19,14,170103,6,2,4,0
+rook_endgame,endgame,instinct_only,3,3,b4f4,83,5820,346,602,162886,45,14,116,0
