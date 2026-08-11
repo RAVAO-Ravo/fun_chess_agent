@@ -1,4 +1,4 @@
-# Moteur d’échecs C++ et optimisation génétique
+# Chess Agent
 
 ## Résumé du projet
 
